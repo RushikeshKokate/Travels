@@ -1,17 +1,20 @@
 import React from "react";
 import Card from "../component/Card";
 import { data } from "../utils/data";
+import Button from "../component/Button";
+import map from "../assets/images/map.png"
+import { DndContext } from "@dnd-kit/core";
 
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex  ">
-      <div className="h-full w-[51%]">
-        <h3 className="font-Helvetica font-bold text-3xl ml-15">Itinerary</h3>
-        <h6 className="text-[#8392AB] font-bold text-[16px] mt-2 font-Helvetica ml-15">
+    <div className="w-full h-full sm:flex  ">
+    <div className="max-sm:w-full h-[87vh] overflow-y-scroll hide-scrollbar">
+        <h3 className="font-Helvetica font-bold text-3xl ml-15 max-sm:ml-6 max-sm:text-2xl">Itinerary</h3>
+        <h6 className="text-[#8392AB] font-bold text-[16px] mt-2 max-sm:ml-6  max-sm:text-sm font-Helvetica ml-15">
           Day
         </h6>
-        <div className="ml-5 mt-6">
+        <div className="sm:ml-5 sm:mt-6 max-sm:ml-3 max-sm:mr-3">
            {data.map((place) => (
             <Card
               key={place.id}
@@ -22,8 +25,9 @@ const Home = () => {
             />
           ))}
         </div>
+        <Button/>
       </div>
-      <div className="h-full w-[49%]">Right Side</div>
+     
     </div>
   );
 };
