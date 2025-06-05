@@ -21,36 +21,29 @@ export const data = [
     rating: "4.5 ⭐ (198,750)",
     description: "Built in 1648 by Shah Jahan, Red Fort served as the Mughal emperors' residence and is a UNESCO World Heritage Site."
   },
-//   {
-//     id: 3,
-//     image: Qutub,
-//     name: "Qutub Minar",
-//     rating: "4.4 ⭐ (172,300)",
-//     description: "Qutub Minar is a 73-meter tall tower in Delhi, built in 1193 and known as the world’s tallest brick minaret."
-//   },
   {
-    id: 4,
+    id: 3,
     image: Temple,
     name: "Lotus Temple",
     rating: "4.6 ⭐ (205,840)",
     description: "The Lotus Temple, shaped like a lotus flower, is a Baháʼí House of Worship open to all religions."
   },
   {
-    id: 5,
+    id: 4,
     image: Tomb,
     name: "Humayun's Tomb",
     rating: "4.5 ⭐ (147,320)",
     description: "Built in 1572, Humayun's Tomb in Delhi is the first garden tomb in India and a UNESCO World Heritage Site."
   },
   {
-    id: 6,
+    id: 5,
     image: Mahal,
     name: "Taj Mahal",
     rating: "4.7 ⭐ (456,890)",
     description: "The Taj Mahal in Agra is a white marble mausoleum built in 1653 by Shah Jahan in memory of Mumtaz Mahal."
   },
   {
-    id: 7,
+    id: 6,
     image: Hawa,
     name: "Hawa Mahal",
     rating: "4.4 ⭐ (138,560)",
