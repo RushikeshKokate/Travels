@@ -39,8 +39,8 @@ const Home = () => {
             <SortableContext items={tasks.map(task => task.id)} strategy={verticalListSortingStrategy}>
            {tasks.map((place) => (
            <Card
-           key={place.id} // ✅ Add key here
-           id={place.id}  // ✅ Ensure id is passed correctly
+           key={place.id}  
+           id={place.id}   
            image={place.image}
            name={place.name}
            rating={place.rating}
